@@ -6,7 +6,26 @@
   font-weight: 400;
   font-style: normal;
 }
+.btn-primary{
+    background-color:#E02C6D ;
+    color: white;
+    font-size: .9rem;
+    font-weight: 500;
+    padding: 7px 15px;
+    border-radius: 41px;
+    border: none;
+}
 
+/*body*/
+body{
+    padding: 20px 100px;
+    
+}
+
+/*main section*/
+main section{
+    margin-top: 120px;
+}
 /* Header section*/
 
 nav{
@@ -26,13 +45,49 @@ nav ul{
    justify-content: flex-end;
     align-items: center;
     list-style: none;
-    width: 50%;
+    
 }
 nav ul li{
     font-size: .9rem;
     font-weight: 400;
-    width: 10%;
+    
 }
-nav ul li img{
-    width: 40%;
+
+/* main section*/
+.journey-info{
+    width: 80%;
+}
+.journey{
+    padding-bottom: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.journey-info h2{
+    font-size: 2rem;
+    font-weight: 600;
+    color: #3A3A3A;
+}
+.journey-info p{
+    font-size: .7rem;
+    font-weight: 400;
+    color: #3A3A3A;
+}
+
+.imgs{
+    background-image: url(../images/Circle\ design.svg);
+    background-size: cover;
+    
+}
+/* Logos Section*/
+.logos{
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    justify-content: center;
+    align-items: center;
+    padding: 9px;
+    border-top: .0005px solid rgb(181, 177, 177);
+    border-bottom: .0005px solid rgb(181, 177, 177);
+   
+    
 }
