@@ -17,7 +17,7 @@
 }
 
 /*body*/
-body{
+header ,main{
     padding: 20px 100px;
     
 }
@@ -196,4 +196,48 @@ nav ul li{
 }
 .features-info button{
     border-radius: 0;
+}
+
+/*footer section*/
+footer{
+    background-color: rgba(10, 8, 38, 1);
+    
+    padding: 50px;
+    
+}
+.foot{
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    align-content: center;
+    text-align: center;
+}
+.foot ul{
+    display: flex;
+    list-style: none;
+    gap: 19px;
+    justify-content: center;
+    align-items: center;
+    margin: 0%;
+}
+.foot h2{
+    margin: 0;
+    font-size: 1.3rem;
+    font-weight: 600;
+    color: white;
+}
+footer h3{
+    font-size: .9rem;
+    font-weight: 500;
+    color:rgba(217, 219, 225, 1) ;
+    margin: 2px;
+}
+footer h5{
+    font-size: .9rem;
+    font-weight: 400;
+    color:rgba(217, 219, 225, 1) ;
+    margin: 0%;
+}
+footer i{
+    color: white;
 }
