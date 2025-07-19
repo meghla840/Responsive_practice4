@@ -15,6 +15,15 @@
     border-radius: 41px;
     border: none;
 }
+button:hover{
+    transition: transform .5s ease , z-index .3s;
+    z-index: 1;
+    transform: scale(1.2) ;
+    box-shadow: 2px 4px 5px #4e3b3b;
+    background: linear-gradient(-14deg , #EEAECA, #94BBE9 );
+    color: #4e3b3b;
+}
+
 
 /*body*/
 header ,main{
