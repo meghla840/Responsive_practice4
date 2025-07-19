@@ -241,3 +241,122 @@ footer h5{
 footer i{
     color: white;
 }
+/*small device */
+@media screen and (max-width:768px) {
+    nav{
+        flex-direction: column;
+        justify-content: flex-start;
+    }
+    
+    nav ul{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+
+    }
+    main{
+        margin: 0%;
+        padding: 0%;
+    }
+    .journey{
+        flex-direction: column-reverse;
+    }
+    .journey img{
+        width: 80%;
+    }
+    .journey-info{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        margin-top: 10px;
+    }
+    .logos{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        gap: 9px;
+        margin-top: 10px;
+        margin: 0%;
+        padding: 0%;
+    }
+    .camera-contain{
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+}
+    .features{
+    flex-direction: column-reverse;
+    align-items: center;
+    margin-bottom: 15px;
+}
+.features-info{
+    text-align: center;
+    margin-bottom: 15px;
+}
+    .features img{
+        width: 70%;
+        display: block;
+       margin: 0 auto;
+    }
+ 
+}
+
+
+/*medium device */
+@media screen and (min-width:576px) and (max-width:991px) {
+    nav{
+        flex-direction: column;
+        justify-content: flex-start;
+    }
+    
+    
+    main{
+        margin: 0 auto;
+        padding: 0 auto;
+    }
+    .journey{
+        flex-direction: column-reverse;
+    }
+    .journey img{
+        width: 80%;
+    }
+    .journey-info{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        margin-top: 10px;
+    }
+    .logos{
+        display: grid;
+        grid-template-columns: repeat(4,1fr);
+        gap: 9px;
+        margin-top: 30px;
+        margin: 0 auto;
+        padding: 0%;
+    }
+    .camera-contain{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+.seemore{
+    align-items: center;
+    justify-content: center;
+}
+    .features{
+    flex-direction: column-reverse;
+    align-items: center;
+    margin-bottom: 15px;
+}
+.features-info{
+    text-align: center;
+    margin-bottom: 15px;
+}
+    .features img{
+        width: 100%;
+       
+    }
+ 
+}
