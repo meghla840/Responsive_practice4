@@ -177,3 +177,23 @@ nav ul li{
 .seemore a:hover{
     color: rgb(24, 28, 26);
 }
+/* Features section*/
+.features{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+.features-info h3{
+    font-size: 1.3rem;
+    color:rgba(10, 8, 38, 1) ;
+    font-weight: 600;
+}
+.features-info p{
+    font-size: .7rem;
+    color:rgba(108, 108, 108, 1) ;
+    font-weight: 500;
+}
+.features-info button{
+    border-radius: 0;
+}
